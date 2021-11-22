@@ -1,6 +1,6 @@
 // nested if.c
 #include <stdio.h>
-int main()
+void main()
 {
     int a,b;
     printf("Enter two numbers: ");
@@ -14,5 +14,4 @@ int main()
         else
             printf("%d is equal to %d",a,b);
     }
-    return 0;
 }
